@@ -1,0 +1,13 @@
+// where {query} ==> {ticker symbol}
+
+// options data
+https://www.google.com/finance/option_chain?q=NASDAQ%3A{query}
+
+// i.e. TSLA options url would be
+https://www.google.com/finance/option_chain?q=NASDAQ%3ATSLA
+
+// stock data
+https://www.google.com/finance?q=NASDAQ%3A{query}
+
+// i.e. TSLA url would be
+https://www.google.com/finance?q=NASDAQ%3ATSLA
